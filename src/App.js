@@ -36,7 +36,8 @@ class App extends Component {
         />
         <Person
           name={this.state.persons[1].name}
-          age={this.state.persons[1].age}>
+          age={this.state.persons[1].age}
+          click={this.switchNameHandler}>
           Job: UI Designer
         </Person>
         <Person
